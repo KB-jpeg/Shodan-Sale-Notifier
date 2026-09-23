@@ -1,7 +1,5 @@
 import requests
-
-# Enter your ntfy topic here
-ntfy_topic = ""
+from config import *
 
 def send_notification(data="Shodan is on sale"):
     requests.post(
